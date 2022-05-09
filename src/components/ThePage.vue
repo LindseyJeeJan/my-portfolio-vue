@@ -1,7 +1,9 @@
 <template>
+<main class="wrapper">
   <the-nav />
   <the-content />
   <the-footer />
+  </main>
 </template>
 
 <script>
@@ -20,6 +22,16 @@ export default {
 </script>
 
 <style scoped>
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
 h3 {
   margin: 40px 0 0;
 }

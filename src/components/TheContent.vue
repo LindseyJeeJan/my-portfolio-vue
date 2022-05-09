@@ -1,8 +1,10 @@
 <template>
-    <page-about />
-    <page-contact />
-    <page-portfolio />
-    <page-resume />
+    <div id="content" class="container">
+        <page-about />
+        <page-contact />
+        <page-portfolio />
+        <page-resume />
+    </div>
 </template>
 
 <script>
@@ -22,6 +24,10 @@ name: 'TheContent',
 }
 </script>
 
-<style>
-
+<style scoped>
+#content {
+    flex-grow: 2;
+    overflow: auto;
+    padding: 1rem!important;
+}
 </style>

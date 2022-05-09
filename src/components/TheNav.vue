@@ -50,7 +50,11 @@
 
 <script>
 export default {
-
+methods: {
+    handlePageChange(page){
+        console.log(page);
+    }
+}
 }
 </script>
 
@@ -72,5 +76,8 @@ nav li {
 
 nav ul {
     justify-content: flex-end;
+}
+.navbar .nav-tabs .nav-link:hover{
+    text-decoration: none;
 }
 </style>
