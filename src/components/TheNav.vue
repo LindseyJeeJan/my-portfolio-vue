@@ -52,7 +52,7 @@
 export default {
 methods: {
     handlePageChange(page){
-        console.log(page);
+        this.$emit('update-page', page);
     }
 }
 }

@@ -1,7 +1,7 @@
 <template>
 <main class="wrapper">
-  <the-nav />
-  <the-content />
+  <the-nav @update-page="updatePage" />
+  <the-content :currentPage="currentPage" />
   <the-footer />
   </main>
 </template>
@@ -18,6 +18,16 @@ export default {
     'the-content': Content,
     'the-nav': Nav,   
   },
+  data() {
+      return {
+        currentPage: 'About'
+      }
+   },
+  methods: {
+    updatePage(page){
+       this.$data.currentPage = page;
+    },
+}
 }
 </script>
 
