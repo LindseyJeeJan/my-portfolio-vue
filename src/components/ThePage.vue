@@ -1,6 +1,6 @@
 <template>
 <main class="wrapper">
-  <the-nav @update-page="updatePage" />
+  <the-nav :currentPage="currentPage" @update-page="updatePage" />
   <the-content :currentPage="currentPage" />
   <the-footer />
   </main>

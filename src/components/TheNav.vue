@@ -50,11 +50,14 @@
 
 <script>
 export default {
-methods: {
-    handlePageChange(page){
-        this.$emit('update-page', page);
-    }
-}
+    props: {
+        currentPage: String,
+    },
+    methods: {
+        handlePageChange(page){
+            this.$emit('update-page', page);
+        }
+    }       
 }
 </script>
 
