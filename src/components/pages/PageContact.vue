@@ -34,11 +34,11 @@
               required
               aria-describedby="errorEmailRequired" />
                 <div>
-                  <p id="errorEmailRequired" role="alert" className="error">{{ errorEmailRequired }}</p>
+                  <p id="errorEmailRequired" role="alert" class="error">{{ errorEmailRequired }}</p>
                 </div>
 
                 <div>
-                  <p id="errorEmailFormat" role="alert" className="error">{{ errorEmailFormat }}</p>
+                  <p id="errorEmailFormat" role="alert" class="error">{{ errorEmailFormat }}</p>
                 </div>
               
             </div>

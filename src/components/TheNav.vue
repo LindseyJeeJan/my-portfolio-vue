@@ -16,7 +16,7 @@
                     About Me
                     </a>
                 </li>
-                <li className="nav-item">
+                <li class="nav-item">
                     <a
                     href="#portfolio"
                     @click="handlePageChange('Portfolio')"
