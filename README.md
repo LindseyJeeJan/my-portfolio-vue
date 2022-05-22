@@ -11,11 +11,6 @@
   * [Tests](#tests)
   * [Questions](#questions)
 
-
-  ## Usage
-![Desktop](public/images/desktop.png)
-![Mobile](public/images/mobile.png)
-
   ## License
   Licensed under [GNU AGPLv3](https://spdx.org/licenses/AGPL-3.0-or-later.html).
 
