@@ -23,6 +23,14 @@ export default {
 </script>
 
 <style scoped>
+.about-content img {
+    margin: 0 0 30px 30px;
+    width: 30%;
+    height: 50%;
+    border-radius: 2px;
+    box-shadow: 0 10px 12px 2px rgb(51 102 102 / 50%);
+}
+
 .image-self {
    height: 100%;
 }

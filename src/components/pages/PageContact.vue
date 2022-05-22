@@ -67,7 +67,7 @@
 
 <script>
 export default {
-     name: 'PageContact',
+    name: 'PageContact',
     data() {
       return {
         email: null,

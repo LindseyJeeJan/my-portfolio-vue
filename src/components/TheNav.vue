@@ -50,6 +50,7 @@
 
 <script>
 export default {
+    name: 'TheNav',
     props: {
         currentPage: String,
     },
