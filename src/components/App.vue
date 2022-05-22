@@ -3,14 +3,14 @@
 </template>
 
 <script>
-import Page from '@/components/ThePage.vue'
+import Page from "@/components/ThePage.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Page
-  }
-}
+    Page,
+  },
+};
 </script>
 
 <style>
