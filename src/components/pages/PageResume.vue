@@ -9,6 +9,7 @@
         <li>CSS3</li>
         <li>SASS</li>
         <li>JavaScript</li>
+        <li>TypeScript</li>
         <li>Vue.js</li>
         <li>React</li>
         <li>Accessibility</li>
@@ -18,12 +19,12 @@
       <ul>
         <li>APIs</li>
         <li>Node</li>
+        <li>REST</li>
+        <li>GraphQL</li>
         <li>NPM</li>
         <li>Express</li>
         <li>MySQL, Sequelize</li>
         <li>MongoDB, Mongoose</li>
-        <li>REST</li>
-        <li>GraphQL</li>
       </ul>
 
       <div class="top-margin">
@@ -43,3 +44,14 @@ export default {
   name: "PageResume",
 };
 </script>
+
+<style scoped>
+h2,
+ul {
+  margin-left: 0.5rem;
+}
+
+li {
+  line-height: 1.5;
+}
+</style>

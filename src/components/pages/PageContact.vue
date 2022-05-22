@@ -84,6 +84,7 @@ export default {
     };
   },
   methods: {
+    handleInputChange() {},
     handleFormSubmit() {},
   },
 };

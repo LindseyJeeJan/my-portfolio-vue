@@ -1,5 +1,5 @@
 <template>
-  <Page />
+  <the-page />
 </template>
 
 <script>
@@ -8,7 +8,7 @@ import Page from "@/components/ThePage.vue";
 export default {
   name: "App",
   components: {
-    Page,
+    "the-page": Page,
   },
 };
 </script>
