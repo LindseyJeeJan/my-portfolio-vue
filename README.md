@@ -4,6 +4,10 @@
   ## Description
   This is my professional portfolio. This SPA single page application contains a brief message about who I am, and descriptions and links for several of my recent projects. The page also contains information to contact me.  The application is built with Vue.js and NodeJS.
 
+  ## Deployed Application
+  [GitHub Pages](https://lindseyjeejan.github.io/my-portfolio-vue/)
+  
+
   ## Table of Contents
   * [Usage](#usage)
   * [License](#license)
