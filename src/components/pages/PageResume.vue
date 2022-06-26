@@ -32,7 +32,7 @@
           href="@/assets/lindseylauria-resume.pdf"
           rel="noreferrer"
           target="_blank"
-          >Download my resume &ndash; PDF</a
+          >Download my resume (PDF)</a
         >
       </div>
     </section>
