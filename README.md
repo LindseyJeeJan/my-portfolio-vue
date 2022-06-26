@@ -2,7 +2,7 @@
   [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
   ## Description
-  This is my professional portfolio. This SPA single page application contains a brief message about who I am, and descriptions and links for several of my recent projects. The page also contains information to contact me.  The application is built with Vue.js and NodeJS.
+ This SPA single page application contains a brief message about who I am, and descriptions and links for several of my recent projects. The page also contains information to contact me.  The application is built with Vue.js and NodeJS.
 
   ## Deployed Application
   [GitHub Pages](https://lindseyjeejan.github.io/my-portfolio-vue/)
