@@ -19,63 +19,63 @@
 
       <h2 class="mt-3">Skills</h2>
       <div class="skills-grid">
-        <div>
-          <h3>Core Skills</h3>
-          <ul>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>Vue.js</li>
-            <li>HTML</li>
-            <li>CSS / SCSS</li>
-          </ul>
+        <div class="skill-group">
+          <span class="skill-category">Core</span>
+          <div class="skill-tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">React</span>
+            <span class="tag">Vue.js</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS / SCSS</span>
+          </div>
         </div>
-        <div>
-          <h3>Frontend Architecture</h3>
-          <ul>
-            <li>Web Components</li>
-            <li>REST APIs</li>
-            <li>Server-Sent Events (SSE)</li>
-          </ul>
+        <div class="skill-group">
+          <span class="skill-category">Architecture</span>
+          <div class="skill-tags">
+            <span class="tag">Web Components</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">SSE</span>
+          </div>
         </div>
-        <div>
-          <h3>State Management</h3>
-          <ul>
-            <li>Zustand</li>
-            <li>Pinia</li>
-          </ul>
+        <div class="skill-group">
+          <span class="skill-category">State</span>
+          <div class="skill-tags">
+            <span class="tag">Zustand</span>
+            <span class="tag">Pinia</span>
+          </div>
         </div>
-        <div>
-          <h3>Testing</h3>
-          <ul>
-            <li>Vitest</li>
-            <li>React Testing Library</li>
-            <li>Cypress</li>
-          </ul>
+        <div class="skill-group">
+          <span class="skill-category">Testing</span>
+          <div class="skill-tags">
+            <span class="tag">Vitest</span>
+            <span class="tag">React Testing Library</span>
+            <span class="tag">Cypress</span>
+          </div>
         </div>
-        <div>
-          <h3>Tooling</h3>
-          <ul>
-            <li>Vite</li>
-            <li>Webpack</li>
-            <li>Node.js</li>
-            <li>Yarn</li>
-          </ul>
+        <div class="skill-group">
+          <span class="skill-category">Tooling</span>
+          <div class="skill-tags">
+            <span class="tag">Vite</span>
+            <span class="tag">Webpack</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Yarn</span>
+          </div>
         </div>
-        <div>
-          <h3>Accessibility</h3>
-          <ul>
-            <li>WCAG</li>
-            <li>ARIA</li>
-            <li>Screen Readers</li>
-            <li>Keyboard Navigation</li>
-          </ul>
+        <div class="skill-group">
+          <span class="skill-category">Accessibility</span>
+          <div class="skill-tags">
+            <span class="tag">WCAG</span>
+            <span class="tag">ARIA</span>
+            <span class="tag">Screen Readers</span>
+            <span class="tag">Keyboard Navigation</span>
+          </div>
         </div>
-        <div>
-          <h3>AI</h3>
-          <ul>
-            <li>Claude Code</li>
-            <li>GitHub Copilot</li>
-          </ul>
+        <div class="skill-group">
+          <span class="skill-category">AI</span>
+          <div class="skill-tags">
+            <span class="tag">Claude Code</span>
+            <span class="tag">GitHub Copilot</span>
+          </div>
         </div>
       </div>
 
@@ -153,13 +153,42 @@ li {
 
 .skills-grid {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-left: 0.5rem;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0.75rem 0 0 0.5rem;
 }
 
-.skills-grid > div {
-  min-width: 160px;
+.skill-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.skill-category {
+  min-width: 90px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  padding-top: 0.35rem;
+  flex-shrink: 0;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag {
+  background-color: var(--accent-light);
+  color: var(--accent-hover);
+  border: 1px solid #b2ede8;
+  border-radius: 20px;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
 }
 
 .top-margin {
