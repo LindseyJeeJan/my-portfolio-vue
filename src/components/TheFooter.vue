@@ -1,6 +1,6 @@
 <template>
   <footer class="p-2">
-    <article class="contacts container">
+    <article class="contacts">
       <a
         class="button"
         aria-label="Linked In account"
@@ -68,13 +68,8 @@ footer {
   text-align: center;
   box-shadow: 0 1px 5px 3px rgb(0 0 0 / 15%);
   padding: 0.5rem !important;
-}
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>
