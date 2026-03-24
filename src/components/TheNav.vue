@@ -16,29 +16,7 @@
               About Me
             </a>
           </li>
-          <li class="nav-item">
-            <a
-              href="#portfolio"
-              @click="handlePageChange('Portfolio')"
-              :class="
-                currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'
-              "
-            >
-              Portfolio
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              href="#contact"
-              @click="handlePageChange('Contact')"
-              :class="
-                currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
-              "
-            >
-              Contact
-            </a>
-          </li>
-          <li class="nav-item">
+<li class="nav-item">
             <a
               href="#resume"
               @click="handlePageChange('Resume')"

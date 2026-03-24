@@ -264,13 +264,15 @@ section {
 }
 
 .contacts {
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1rem;
     max-width: 325px;
     flex-wrap: nowrap;
+    margin: 0 auto;
 }
 
 .contacts a.button {
-    flex: 1 0 calc(20% - 28px);
+    flex: 0 0 auto;
     font-size: 1.7rem;
     font-weight: 300;
     padding: 7px;
