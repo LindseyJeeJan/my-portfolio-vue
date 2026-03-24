@@ -50,15 +50,7 @@
   </footer>
 </template>
 
-<script>
-//   import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
-export default {
-  name: "TheFooter",
-  // components: {
-  //     'font-awesome-icon' : FontAwesomeIcon,
-  // },
-};
+<script setup lang="ts">
 </script>
 
 <style scoped>

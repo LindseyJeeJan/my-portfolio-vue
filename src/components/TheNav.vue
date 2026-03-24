@@ -31,18 +31,13 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "TheNav",
-  props: {
-    currentPage: String,
-  },
-  methods: {
-    handlePageChange(page) {
-      this.$emit("update-page", page);
-    },
-  },
-};
+<script setup lang="ts">
+defineProps<{ currentPage: string }>();
+const emit = defineEmits<{ "update-page": [page: string] }>();
+
+function handlePageChange(page: string) {
+  emit("update-page", page);
+}
 </script>
 
 <style scoped>

@@ -6,29 +6,17 @@
   </main>
 </template>
 
-<script>
-import Nav from "@/components/TheNav.vue";
-import Content from "@/components/TheContent.vue";
-import Footer from "@/components/TheFooter.vue";
+<script setup lang="ts">
+import { ref } from "vue";
+import TheNav from "@/components/TheNav.vue";
+import TheContent from "@/components/TheContent.vue";
+import TheFooter from "@/components/TheFooter.vue";
 
-export default {
-  name: "ThePage",
-  components: {
-    "the-footer": Footer,
-    "the-content": Content,
-    "the-nav": Nav,
-  },
-  data() {
-    return {
-      currentPage: "About",
-    };
-  },
-  methods: {
-    updatePage(page) {
-      this.$data.currentPage = page;
-    },
-  },
-};
+const currentPage = ref<string>("About");
+
+function updatePage(page: string) {
+  currentPage.value = page;
+}
 </script>
 
 <style scoped>

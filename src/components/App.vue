@@ -2,15 +2,8 @@
   <the-page />
 </template>
 
-<script>
-import Page from "@/components/ThePage.vue";
-
-export default {
-  name: "App",
-  components: {
-    "the-page": Page,
-  },
-};
+<script setup lang="ts">
+import ThePage from "@/components/ThePage.vue";
 </script>
 
 <style>

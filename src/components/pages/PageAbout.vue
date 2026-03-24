@@ -32,10 +32,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "PageAbout",
-};
+<script setup lang="ts">
 </script>
 
 <style scoped>
