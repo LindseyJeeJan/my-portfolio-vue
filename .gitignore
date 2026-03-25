@@ -103,3 +103,7 @@ typings/
 .tern-port
 
 .DS_Store
+
+# Superpowers brainstorming sessions
+.superpowers/
+docs/superpowers/
