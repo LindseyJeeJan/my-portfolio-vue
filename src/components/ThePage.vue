@@ -23,29 +23,6 @@ function updatePage(page: string) {
 .wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-h3 {
-  margin: 40px 0 0;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
+  min-height: 100vh;
 }
 </style>
