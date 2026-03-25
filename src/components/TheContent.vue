@@ -25,9 +25,4 @@ defineProps<{ currentPage: string }>();
 </script>
 
 <style scoped>
-#content {
-  flex-grow: 2;
-  overflow: auto;
-  padding: 1rem !important;
-}
 </style>
